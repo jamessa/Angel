@@ -43,6 +43,8 @@ Now I am going to handwire one to refuse my point. Stay tune.
 
 ![handwire guide](assets/handwire_guide.jpg)
 
+[Get in touch](https://forms.gle/i4KZJjDPFTidD8Jt6) Let me know how to you think about Symmetric60.
+
 ## References
 
 On space bar http://xahlee.info/kbd/keyboard_problems.html
