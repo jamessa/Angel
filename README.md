@@ -4,14 +4,14 @@ A staggered yet ergonomic 60% keyboard.
 
 ## Idea
 
-A slightly ergonomic keyboard that fits into 60% form factor. ![Layout](assets/Layout.jpg)
+A slightly ergonomic keyboard that fits into 60% form factor. ![Layout](assets/layout.jpg)
 
 
  ## Featuring
 
-* Staggered yet ergonmic ![Staggered yet Ergonomics](assets/Staggered yet Ergonomics.jpg)
+* Staggered yet ergonmic ![Staggered yet Ergonomics](assets/staggered_yet_ergonomics.jpg)
 
-* Maximize hand distance ![hand distance](assets/hand distance.jpg)
+* Maximize hand distance ![hand distance](assets/hand_distance.jpg)
 
 * Arrow keys are must.
 
@@ -41,7 +41,7 @@ in the order of first appearance.
 
 Now I am going to handwire one to refuse my point. Stay tune.
 
-![handwire guide](Symmetric 68.assets/handwire guide.jpg)
+![handwire guide](assets/handwire_guide.jpg)
 
 ## References
 
