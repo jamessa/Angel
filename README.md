@@ -43,7 +43,7 @@ Now I am going to handwire one to refuse my point. Stay tune.
 
 ![handwire guide](assets/handwire_guide.jpg)
 
-[Get in touch](https://forms.gle/i4KZJjDPFTidD8Jt6) Let me know how to you think about Symmetric60.
+You can [try it on paper](assets/try_it.pdf) and [let me know](https://forms.gle/i4KZJjDPFTidD8Jt6) how to you think about Symmetric60.
 
 ## References
 
