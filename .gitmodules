@@ -1,0 +1,18 @@
+[submodule "Library/qmk_hardware"]
+	path = Library/qmk_hardware
+	url = git@github.com:qmk/qmk_hardware.git
+[submodule "Library/keebio-components"]
+	path = Library/keebio-components
+	url = git@github.com:keebio/keebio-components.git
+[submodule "Library/Keebio-Parts.pretty"]
+	path = Library/Keebio-Parts.pretty
+	url = git@github.com:keebio/Keebio-Parts.pretty.git
+[submodule "Library/kicad-footprints"]
+	path = Library/kicad-footprints
+	url = git@github.com:KiCad/kicad-footprints.git
+[submodule "Library/SparkFun-KiCad-Libraries"]
+	path = Library/SparkFun-KiCad-Libraries
+	url = git@github.com:sparkfun/SparkFun-KiCad-Libraries.git
+[submodule "Library/digikey-kicad-library"]
+	path = Library/digikey-kicad-library
+	url = git@github.com:Digi-Key/digikey-kicad-library.git
