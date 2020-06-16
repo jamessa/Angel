@@ -16,3 +16,6 @@
 [submodule "Library/digikey-kicad-library"]
 	path = Library/digikey-kicad-library
 	url = git@github.com:Digi-Key/digikey-kicad-library.git
+[submodule "Library/keyswitches.pretty"]
+	path = Library/keyswitches.pretty
+	url = git@github.com:daprice/keyswitches.pretty.git

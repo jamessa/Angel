@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name keyswitches)(type KiCad)(uri /Users/james/Projects/Symmetric60/Library/keyswitches.pretty)(options "")(descr ""))
+  (lib (name proton_c)(type KiCad)(uri /Users/james/Projects/Symmetric60/Library/qmk_hardware/kicad/proton_c)(options "")(descr ""))
+  (lib (name Keebio-Parts)(type KiCad)(uri /Users/james/Projects/Symmetric60/Library/Keebio-Parts.pretty)(options "")(descr ""))
+)
