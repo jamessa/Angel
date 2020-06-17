@@ -116,33 +116,33 @@ Text GLabel 3800 1500 2    50   Input ~ 0
 row0
 Wire Wire Line
 	3800 1200 4350 1200
-Text GLabel 3800 1700 2    50   Input ~ 0
-col1
-Text GLabel 3800 2000 2    50   Input ~ 0
-row1
-Text GLabel 3800 1600 2    50   Input ~ 0
-col0
-Text GLabel 2400 1500 0    50   Input ~ 0
-row3
 Text GLabel 3800 1800 2    50   Input ~ 0
-col2
+col1
+Text GLabel 3800 1600 2    50   Input ~ 0
+row1
+Text GLabel 3800 1700 2    50   Input ~ 0
+col0
+Text GLabel 2400 2200 0    50   Input ~ 0
+row3
 Text GLabel 3800 1900 2    50   Input ~ 0
+col2
+Text GLabel 3800 2000 2    50   Input ~ 0
 col3
 Text GLabel 3800 2100 2    50   Input ~ 0
 col4
 Text GLabel 3800 2200 2    50   Input ~ 0
 col5
-Text GLabel 2400 2200 0    50   Input ~ 0
+Text GLabel 2400 2000 0    50   Input ~ 0
 col6
-Text GLabel 2400 2100 0    50   Input ~ 0
-col7
 Text GLabel 2400 1900 0    50   Input ~ 0
-col8
+col7
 Text GLabel 2400 1800 0    50   Input ~ 0
-col9
+col8
 Text GLabel 2400 1700 0    50   Input ~ 0
-col10
+col9
 Text GLabel 2400 1600 0    50   Input ~ 0
+col10
+Text GLabel 2400 1500 0    50   Input ~ 0
 col11
 NoConn ~ 3800 1300
 NoConn ~ 2400 1200
@@ -1529,7 +1529,7 @@ F 3 "~" H 2800 4000 50  0001 C CNN
 	1    2800 3800
 	1    0    0    -1  
 $EndComp
-Text GLabel 2400 2000 0    50   Input ~ 0
+Text GLabel 2400 2100 0    50   Input ~ 0
 row2
 $Comp
 L keebio:ProMicro U1
