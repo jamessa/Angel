@@ -56,3 +56,12 @@ Mac keyboard shortcuts https://support.apple.com/en-us/HT201236
 Human Engineering the Keyboard by K. H. Eberhard Kroemer
  Human Factors: The Journal of the Human Factors and Ergonomics Society 1972 14: 51 DOI: [10.1177/001872087201400110](
 http://hfs.sagepub.com/content/14/1/51)
+
+## Prototyping Tips
+
+### Kicad
+
+  - Hardware acceleration will eeschema freezes, so don't enable it. Reset settings by `rm -rf ~/Library/Preferences/kicad` or verisioning it.
+  - Plot gerber files and drills based on [JCLPCB's tutorial](https://support.jlcpcb.com/article/102-kicad-515---generating-gerber-and-drill-files). [Suggested naming patterns](https://support.jlcpcb.com/article/29-suggested-naming-patterns)
+
+
