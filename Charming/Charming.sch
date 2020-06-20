@@ -80,17 +80,17 @@ F 3 "" H 9350 1500 50  0001 C CNN
 $EndComp
 Text GLabel 2200 2350 0    50   Input ~ 0
 row3
-Text GLabel 2200 2150 0    50   Input ~ 0
+Text GLabel 3600 2350 2    50   Input ~ 0
 col6
-Text GLabel 2200 2050 0    50   Input ~ 0
+Text GLabel 3600 2250 2    50   Input ~ 0
 col7
-Text GLabel 2200 1950 0    50   Input ~ 0
+Text GLabel 3600 2050 2    50   Input ~ 0
 col8
-Text GLabel 2200 1850 0    50   Input ~ 0
+Text GLabel 3600 1950 2    50   Input ~ 0
 col9
-Text GLabel 2200 1750 0    50   Input ~ 0
+Text GLabel 3600 1850 2    50   Input ~ 0
 col10
-Text GLabel 2200 1650 0    50   Input ~ 0
+Text GLabel 3600 1750 2    50   Input ~ 0
 col11
 NoConn ~ 3600 1450
 NoConn ~ 2200 1350
@@ -1392,11 +1392,11 @@ $EndComp
 Wire Wire Line
 	1850 3800 1850 4500
 $Comp
-L Device:D D1
+L Diode:1N4148W D1
 U 1 1 5EEA2409
 P 2250 3950
 F 0 "D1" V 2296 3870 50  0000 R CNN
-F 1 "D" V 2205 3870 50  0000 R CNN
+F 1 "D" V 2205 3870 50  0001 R CNN
 F 2 "Diode_SMD:D_SOD-123" H 2250 3950 50  0001 C CNN
 F 3 "~" H 2250 3950 50  0001 C CNN
 	1    2250 3950
@@ -1477,97 +1477,30 @@ F 3 "~" H 2800 4000 50  0001 C CNN
 	1    2800 3800
 	1    0    0    -1  
 $EndComp
-Text GLabel 2200 2250 0    50   Input ~ 0
-row2
 $Comp
 L keebio:ProMicro U1
 U 1 1 5EEA488D
 P 2900 1800
 F 0 "U1" H 2900 2637 60  0000 C CNN
 F 1 "ProMicro" H 2900 2531 60  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical" H 3950 -700 60  0001 C CNN
+F 2 "Keebio:ArduinoProMicro" H 3950 -700 60  0001 C CNN
 F 3 "" V 3950 -700 60  0001 C CNN
 	1    2900 1800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5750 1600 5350 1600
-$Comp
-L power:GND #PWR0101
-U 1 1 5EF07202
-P 5900 1650
-F 0 "#PWR0101" H 5900 1400 50  0001 C CNN
-F 1 "GND" H 5905 1477 50  0000 C CNN
-F 2 "" H 5900 1650 50  0001 C CNN
-F 3 "" H 5900 1650 50  0001 C CNN
-	1    5900 1650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5900 1400 5900 1650
-Wire Wire Line
-	5750 1350 5750 1600
-$Comp
-L power:VCC #PWR0102
-U 1 1 5EF0720A
-P 5750 1350
-F 0 "#PWR0102" H 5750 1200 50  0001 C CNN
-F 1 "VCC" H 5765 1523 50  0000 C CNN
-F 2 "" H 5750 1350 50  0001 C CNN
-F 3 "" H 5750 1350 50  0001 C CNN
-	1    5750 1350
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	5350 1400 5900 1400
-$Comp
-L power:GND #PWR0103
-U 1 1 5EF0E795
-P 4400 1800
-F 0 "#PWR0103" H 4400 1550 50  0001 C CNN
-F 1 "GND" H 4405 1627 50  0000 C CNN
-F 2 "" H 4400 1800 50  0001 C CNN
-F 3 "" H 4400 1800 50  0001 C CNN
-	1    4400 1800
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4850 1500 4400 1500
-Wire Wire Line
-	4850 1600 4400 1600
-Wire Wire Line
-	4400 1500 4400 1600
-Wire Wire Line
-	4400 1600 4400 1800
-Connection ~ 4400 1600
-NoConn ~ 5350 1300
-NoConn ~ 5350 1500
-NoConn ~ 4850 1400
-NoConn ~ 4850 1300
-$Comp
-L Connector_Generic:Conn_02x12_Odd_Even J1
-U 1 1 5EF52355
-P 5050 1800
-F 0 "J1" H 5100 2517 50  0000 C CNN
-F 1 "Conn_02x12_Odd_Even" H 5100 2426 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical" H 5050 1800 50  0001 C CNN
-F 3 "~" H 5050 1800 50  0001 C CNN
-	1    5050 1800
-	1    0    0    -1  
-$EndComp
-Text GLabel 3600 2350 2    50   Input ~ 0
+Text GLabel 2200 2150 0    50   Input ~ 0
 col5
-Text GLabel 3600 2250 2    50   Input ~ 0
+Text GLabel 2200 2050 0    50   Input ~ 0
 col4
-Text GLabel 3600 2150 2    50   Input ~ 0
+Text GLabel 2200 1950 0    50   Input ~ 0
 col3
-Text GLabel 3600 2050 2    50   Input ~ 0
+Text GLabel 2200 1850 0    50   Input ~ 0
 col2
-Text GLabel 3600 1850 2    50   Input ~ 0
+Text GLabel 2200 1650 0    50   Input ~ 0
 col0
-Text GLabel 3600 1750 2    50   Input ~ 0
+Text GLabel 3600 2150 2    50   Input ~ 0
 row1
-Text GLabel 3600 1950 2    50   Input ~ 0
+Text GLabel 2200 1750 0    50   Input ~ 0
 col1
 Wire Wire Line
 	3600 1350 4150 1350
@@ -1601,36 +1534,6 @@ F 3 "" H 4150 1600 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	4000 1550 3600 1550
-Text GLabel 5350 2400 2    50   Input ~ 0
-col3
-Text GLabel 5350 2300 2    50   Input ~ 0
-col2
-Text GLabel 5350 2100 2    50   Input ~ 0
-col0
-Text GLabel 5350 2200 2    50   Input ~ 0
-col1
-Text GLabel 5350 1900 2    50   Input ~ 0
+Text GLabel 2200 2250 0    50   Input ~ 0
 row2
-Text GLabel 5350 2000 2    50   Input ~ 0
-row3
-Text GLabel 5350 1800 2    50   Input ~ 0
-row1
-Text GLabel 5350 1700 2    50   Input ~ 0
-row0
-Text GLabel 4850 2200 0    50   Input ~ 0
-col6
-Text GLabel 4850 2100 0    50   Input ~ 0
-col7
-Text GLabel 4850 2000 0    50   Input ~ 0
-col8
-Text GLabel 4850 1900 0    50   Input ~ 0
-col9
-Text GLabel 4850 1800 0    50   Input ~ 0
-col10
-Text GLabel 4850 1700 0    50   Input ~ 0
-col11
-Text GLabel 4850 2300 0    50   Input ~ 0
-col5
-Text GLabel 4850 2400 0    50   Input ~ 0
-col4
 $EndSCHEMATC
