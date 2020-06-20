@@ -4,149 +4,97 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "Charming"
+Date "2020-06-18"
+Rev "1.0"
+Comp "Designed by James Sa"
 Comment1 ""
-Comment2 ""
-Comment3 ""
-Comment4 ""
+Comment2 "Column to Row (COL2ROW) NKRO"
+Comment3 "codename: Charming"
+Comment4 "a 40% Symmetric keyboard"
 $EndDescr
-Wire Wire Line
-	4200 1400 3800 1400
 $Comp
 L power:GND #PWR04
 U 1 1 5EE91DD7
-P 1950 1600
-F 0 "#PWR04" H 1950 1350 50  0001 C CNN
-F 1 "GND" H 1955 1427 50  0000 C CNN
-F 2 "" H 1950 1600 50  0001 C CNN
-F 3 "" H 1950 1600 50  0001 C CNN
-	1    1950 1600
+P 1750 1750
+F 0 "#PWR04" H 1750 1500 50  0001 C CNN
+F 1 "GND" H 1755 1577 50  0000 C CNN
+F 2 "" H 1750 1750 50  0001 C CNN
+F 3 "" H 1750 1750 50  0001 C CNN
+	1    1750 1750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2400 1300 1950 1300
+	2200 1450 1750 1450
 Wire Wire Line
-	2400 1400 1950 1400
+	2200 1550 1750 1550
 Wire Wire Line
-	1950 1300 1950 1400
-$Comp
-L power:GND #PWR03
-U 1 1 5EE92678
-P 4350 1450
-F 0 "#PWR03" H 4350 1200 50  0001 C CNN
-F 1 "GND" H 4355 1277 50  0000 C CNN
-F 2 "" H 4350 1450 50  0001 C CNN
-F 3 "" H 4350 1450 50  0001 C CNN
-	1    4350 1450
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4350 1200 4350 1450
-NoConn ~ 3800 1100
+	1750 1450 1750 1550
+NoConn ~ 3600 1250
 $Comp
 L power:PWR_FLAG #FLG01
 U 1 1 5EE94AAE
-P 4700 1250
-F 0 "#FLG01" H 4700 1325 50  0001 C CNN
-F 1 "PWR_FLAG" H 4700 1423 50  0000 C CNN
-F 2 "" H 4700 1250 50  0001 C CNN
-F 3 "~" H 4700 1250 50  0001 C CNN
-	1    4700 1250
+P 9350 1500
+F 0 "#FLG01" H 9350 1575 50  0001 C CNN
+F 1 "PWR_FLAG" H 9350 1673 50  0000 C CNN
+F 2 "" H 9350 1500 50  0001 C CNN
+F 3 "~" H 9350 1500 50  0001 C CNN
+	1    9350 1500
 	-1   0    0    1   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5EE952BC
-P 1550 1650
-F 0 "#FLG02" H 1550 1725 50  0001 C CNN
-F 1 "PWR_FLAG" H 1550 1823 50  0000 C CNN
-F 2 "" H 1550 1650 50  0001 C CNN
-F 3 "~" H 1550 1650 50  0001 C CNN
-	1    1550 1650
+P 9350 2000
+F 0 "#FLG02" H 9350 2075 50  0001 C CNN
+F 1 "PWR_FLAG" H 9350 2173 50  0000 C CNN
+F 2 "" H 9350 2000 50  0001 C CNN
+F 3 "~" H 9350 2000 50  0001 C CNN
+	1    9350 2000
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4200 1150 4200 1400
-Wire Wire Line
-	1950 1400 1950 1600
-Connection ~ 1950 1400
+	1750 1550 1750 1750
+Connection ~ 1750 1550
 $Comp
 L power:GND #PWR05
 U 1 1 5EE95E75
-P 1550 1750
-F 0 "#PWR05" H 1550 1500 50  0001 C CNN
-F 1 "GND" H 1555 1577 50  0000 C CNN
-F 2 "" H 1550 1750 50  0001 C CNN
-F 3 "" H 1550 1750 50  0001 C CNN
-	1    1550 1750
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1550 1650 1550 1750
-Wire Wire Line
-	4750 1250 4700 1250
-$Comp
-L power:VCC #PWR02
-U 1 1 5EE97AAC
-P 4200 1150
-F 0 "#PWR02" H 4200 1000 50  0001 C CNN
-F 1 "VCC" H 4215 1323 50  0000 C CNN
-F 2 "" H 4200 1150 50  0001 C CNN
-F 3 "" H 4200 1150 50  0001 C CNN
-	1    4200 1150
+P 9350 2000
+F 0 "#PWR05" H 9350 1750 50  0001 C CNN
+F 1 "GND" H 9355 1827 50  0000 C CNN
+F 2 "" H 9350 2000 50  0001 C CNN
+F 3 "" H 9350 2000 50  0001 C CNN
+	1    9350 2000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:VCC #PWR01
 U 1 1 5EE980A4
-P 4750 900
-F 0 "#PWR01" H 4750 750 50  0001 C CNN
-F 1 "VCC" H 4765 1073 50  0000 C CNN
-F 2 "" H 4750 900 50  0001 C CNN
-F 3 "" H 4750 900 50  0001 C CNN
-	1    4750 900 
+P 9350 1500
+F 0 "#PWR01" H 9350 1350 50  0001 C CNN
+F 1 "VCC" H 9365 1673 50  0000 C CNN
+F 2 "" H 9350 1500 50  0001 C CNN
+F 3 "" H 9350 1500 50  0001 C CNN
+	1    9350 1500
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4750 900  4750 1250
-Text GLabel 3800 1500 2    50   Input ~ 0
-row0
-Wire Wire Line
-	3800 1200 4350 1200
-Text GLabel 3800 1800 2    50   Input ~ 0
-col1
-Text GLabel 3800 1600 2    50   Input ~ 0
-row1
-Text GLabel 3800 1700 2    50   Input ~ 0
-col0
-Text GLabel 2400 2200 0    50   Input ~ 0
+Text GLabel 2200 2350 0    50   Input ~ 0
 row3
-Text GLabel 3800 1900 2    50   Input ~ 0
-col2
-Text GLabel 3800 2000 2    50   Input ~ 0
-col3
-Text GLabel 3800 2100 2    50   Input ~ 0
-col4
-Text GLabel 3800 2200 2    50   Input ~ 0
-col5
-Text GLabel 2400 2000 0    50   Input ~ 0
+Text GLabel 2200 2150 0    50   Input ~ 0
 col6
-Text GLabel 2400 1900 0    50   Input ~ 0
+Text GLabel 2200 2050 0    50   Input ~ 0
 col7
-Text GLabel 2400 1800 0    50   Input ~ 0
+Text GLabel 2200 1950 0    50   Input ~ 0
 col8
-Text GLabel 2400 1700 0    50   Input ~ 0
+Text GLabel 2200 1850 0    50   Input ~ 0
 col9
-Text GLabel 2400 1600 0    50   Input ~ 0
+Text GLabel 2200 1750 0    50   Input ~ 0
 col10
-Text GLabel 2400 1500 0    50   Input ~ 0
+Text GLabel 2200 1650 0    50   Input ~ 0
 col11
-NoConn ~ 3800 1300
-NoConn ~ 2400 1200
-NoConn ~ 2400 1100
+NoConn ~ 3600 1450
+NoConn ~ 2200 1350
+NoConn ~ 2200 1250
 Wire Wire Line
 	3700 6250 4350 6250
 Wire Wire Line
@@ -1529,17 +1477,160 @@ F 3 "~" H 2800 4000 50  0001 C CNN
 	1    2800 3800
 	1    0    0    -1  
 $EndComp
-Text GLabel 2400 2100 0    50   Input ~ 0
+Text GLabel 2200 2250 0    50   Input ~ 0
 row2
 $Comp
 L keebio:ProMicro U1
 U 1 1 5EEA488D
-P 3100 1650
-F 0 "U1" H 3100 2487 60  0000 C CNN
-F 1 "ProMicro" H 3100 2381 60  0000 C CNN
-F 2 "Keebio-Parts:ArduinoProMicro" V 4150 -850 60  0001 C CNN
-F 3 "" V 4150 -850 60  0001 C CNN
-	1    3100 1650
+P 2900 1800
+F 0 "U1" H 2900 2637 60  0000 C CNN
+F 1 "ProMicro" H 2900 2531 60  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical" H 3950 -700 60  0001 C CNN
+F 3 "" V 3950 -700 60  0001 C CNN
+	1    2900 1800
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5750 1600 5350 1600
+$Comp
+L power:GND #PWR0101
+U 1 1 5EF07202
+P 5900 1650
+F 0 "#PWR0101" H 5900 1400 50  0001 C CNN
+F 1 "GND" H 5905 1477 50  0000 C CNN
+F 2 "" H 5900 1650 50  0001 C CNN
+F 3 "" H 5900 1650 50  0001 C CNN
+	1    5900 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5900 1400 5900 1650
+Wire Wire Line
+	5750 1350 5750 1600
+$Comp
+L power:VCC #PWR0102
+U 1 1 5EF0720A
+P 5750 1350
+F 0 "#PWR0102" H 5750 1200 50  0001 C CNN
+F 1 "VCC" H 5765 1523 50  0000 C CNN
+F 2 "" H 5750 1350 50  0001 C CNN
+F 3 "" H 5750 1350 50  0001 C CNN
+	1    5750 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1400 5900 1400
+$Comp
+L power:GND #PWR0103
+U 1 1 5EF0E795
+P 4400 1800
+F 0 "#PWR0103" H 4400 1550 50  0001 C CNN
+F 1 "GND" H 4405 1627 50  0000 C CNN
+F 2 "" H 4400 1800 50  0001 C CNN
+F 3 "" H 4400 1800 50  0001 C CNN
+	1    4400 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4850 1500 4400 1500
+Wire Wire Line
+	4850 1600 4400 1600
+Wire Wire Line
+	4400 1500 4400 1600
+Wire Wire Line
+	4400 1600 4400 1800
+Connection ~ 4400 1600
+NoConn ~ 5350 1300
+NoConn ~ 5350 1500
+NoConn ~ 4850 1400
+NoConn ~ 4850 1300
+$Comp
+L Connector_Generic:Conn_02x12_Odd_Even J1
+U 1 1 5EF52355
+P 5050 1800
+F 0 "J1" H 5100 2517 50  0000 C CNN
+F 1 "Conn_02x12_Odd_Even" H 5100 2426 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x12_P2.54mm_Vertical" H 5050 1800 50  0001 C CNN
+F 3 "~" H 5050 1800 50  0001 C CNN
+	1    5050 1800
+	1    0    0    -1  
+$EndComp
+Text GLabel 3600 2350 2    50   Input ~ 0
+col5
+Text GLabel 3600 2250 2    50   Input ~ 0
+col4
+Text GLabel 3600 2150 2    50   Input ~ 0
+col3
+Text GLabel 3600 2050 2    50   Input ~ 0
+col2
+Text GLabel 3600 1850 2    50   Input ~ 0
+col0
+Text GLabel 3600 1750 2    50   Input ~ 0
+row1
+Text GLabel 3600 1950 2    50   Input ~ 0
+col1
+Wire Wire Line
+	3600 1350 4150 1350
+Text GLabel 3600 1650 2    50   Input ~ 0
+row0
+$Comp
+L power:VCC #PWR02
+U 1 1 5EE97AAC
+P 4000 1300
+F 0 "#PWR02" H 4000 1150 50  0001 C CNN
+F 1 "VCC" H 4015 1473 50  0000 C CNN
+F 2 "" H 4000 1300 50  0001 C CNN
+F 3 "" H 4000 1300 50  0001 C CNN
+	1    4000 1300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1300 4000 1550
+Wire Wire Line
+	4150 1350 4150 1600
+$Comp
+L power:GND #PWR03
+U 1 1 5EE92678
+P 4150 1600
+F 0 "#PWR03" H 4150 1350 50  0001 C CNN
+F 1 "GND" H 4155 1427 50  0000 C CNN
+F 2 "" H 4150 1600 50  0001 C CNN
+F 3 "" H 4150 1600 50  0001 C CNN
+	1    4150 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1550 3600 1550
+Text GLabel 5350 2400 2    50   Input ~ 0
+col3
+Text GLabel 5350 2300 2    50   Input ~ 0
+col2
+Text GLabel 5350 2100 2    50   Input ~ 0
+col0
+Text GLabel 5350 2200 2    50   Input ~ 0
+col1
+Text GLabel 5350 1900 2    50   Input ~ 0
+row2
+Text GLabel 5350 2000 2    50   Input ~ 0
+row3
+Text GLabel 5350 1800 2    50   Input ~ 0
+row1
+Text GLabel 5350 1700 2    50   Input ~ 0
+row0
+Text GLabel 4850 2200 0    50   Input ~ 0
+col6
+Text GLabel 4850 2100 0    50   Input ~ 0
+col7
+Text GLabel 4850 2000 0    50   Input ~ 0
+col8
+Text GLabel 4850 1900 0    50   Input ~ 0
+col9
+Text GLabel 4850 1800 0    50   Input ~ 0
+col10
+Text GLabel 4850 1700 0    50   Input ~ 0
+col11
+Text GLabel 4850 2300 0    50   Input ~ 0
+col5
+Text GLabel 4850 2400 0    50   Input ~ 0
+col4
 $EndSCHEMATC

@@ -1,4 +1,3 @@
 (sym_lib_table
-  (lib (name proton_c)(type Legacy)(uri ${KIPRJMOD}/../Library/qmk_hardware/kicad/proton_c/proton_c.lib)(options "")(descr ""))
-  (lib (name keebio)(type Legacy)(uri ${KIPRJMOD}/../Library/keebio-components/keebio.lib)(options "")(descr ""))
+  (lib (name Charming-rescue)(type Legacy)(uri ${KIPRJMOD}/Charming-rescue.lib)(options "")(descr ""))
 )
