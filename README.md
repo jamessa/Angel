@@ -64,4 +64,4 @@ http://hfs.sagepub.com/content/14/1/51)
   - Hardware acceleration will eeschema freezes, so don't enable it. Reset settings by `rm -rf ~/Library/Preferences/kicad` or verisioning it.
   - Plot gerber files and drills based on [JCLPCB's tutorial](https://support.jlcpcb.com/article/102-kicad-515---generating-gerber-and-drill-files). [Suggested naming patterns](https://support.jlcpcb.com/article/29-suggested-naming-patterns)
 
-
+Special thanks to Haway 梁, Jeff 邱, Justin 吳.
