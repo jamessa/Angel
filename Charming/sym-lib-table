@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Charming-rescue)(type Legacy)(uri ${KIPRJMOD}/Charming-rescue.lib)(options "")(descr ""))
+  (lib (name Charming)(type Legacy)(uri ${KIPRJMOD}/Charming.lib)(options "")(descr ""))
 )

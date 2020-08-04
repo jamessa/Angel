@@ -25,17 +25,6 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328_P%20AVR%20MCU%20w
 	1    0    0    -1  
 $EndComp
 $Comp
-L Charming-rescue:HRO-TYPE-C-31-M-12-keebio USB1
-U 1 1 5F11DCBC
-P 5600 3550
-F 0 "USB1" H 5433 4347 60  0000 C CNN
-F 1 "HRO-TYPE-C-31-M-12" H 5433 4241 60  0000 C CNN
-F 2 "Keebio:HRO-TYPE-C-31-M-12-Assembly" H 5600 3550 60  0001 C CNN
-F 3 "" H 5600 3550 60  0001 C CNN
-	1    5600 3550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+5V #PWR0101
 U 1 1 5F11E6D7
 P 1950 2100
@@ -139,17 +128,6 @@ F 1 "22pf" H 3685 3595 50  0000 R CNN
 F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3838 3400 50  0001 C CNN
 F 3 "~" H 3800 3550 50  0001 C CNN
 	1    3800 3550
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:C C4
-U 1 1 5F137E8E
-P 3350 3550
-F 0 "C4" H 3235 3504 50  0000 R CNN
-F 1 "22pf" H 3235 3595 50  0000 R CNN
-F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3388 3400 50  0001 C CNN
-F 3 "~" H 3350 3550 50  0001 C CNN
-	1    3350 3550
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
@@ -280,23 +258,23 @@ Wire Wire Line
 $Comp
 L power:+5V #PWR0109
 U 1 1 5F169608
-P 4350 4600
-F 0 "#PWR0109" H 4350 4450 50  0001 C CNN
-F 1 "+5V" H 4365 4773 50  0000 C CNN
-F 2 "" H 4350 4600 50  0001 C CNN
-F 3 "" H 4350 4600 50  0001 C CNN
-	1    4350 4600
+P 3900 4700
+F 0 "#PWR0109" H 3900 4550 50  0001 C CNN
+F 1 "+5V" H 3915 4873 50  0000 C CNN
+F 2 "" H 3900 4700 50  0001 C CNN
+F 3 "" H 3900 4700 50  0001 C CNN
+	1    3900 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0110
 U 1 1 5F169EF0
-P 4350 5500
-F 0 "#PWR0110" H 4350 5250 50  0001 C CNN
-F 1 "GND" H 4355 5327 50  0000 C CNN
-F 2 "" H 4350 5500 50  0001 C CNN
-F 3 "" H 4350 5500 50  0001 C CNN
-	1    4350 5500
+P 3900 5600
+F 0 "#PWR0110" H 3900 5350 50  0001 C CNN
+F 1 "GND" H 3905 5427 50  0000 C CNN
+F 2 "" H 3900 5600 50  0001 C CNN
+F 3 "" H 3900 5600 50  0001 C CNN
+	1    3900 5600
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -343,31 +321,31 @@ F 3 "" H 4250 7300 50  0001 C CNN
 	1    4250 7300
 	1    0    0    -1  
 $EndComp
-Text GLabel 4850 5200 2    50   Input ~ 0
+Text GLabel 4400 5300 2    50   Input ~ 0
 Reset
 $Comp
-L Connector:AVR-ISP-6 J1
+L Charming:Oshwa_ISP_6 J1
 U 1 1 5F1679A9
-P 4450 5100
-F 0 "J1" H 4121 5196 50  0000 R CNN
-F 1 "AVR-ISP-6" H 4121 5105 50  0000 R CNN
-F 2 "Keebio:ICSP-Header" V 4200 5150 50  0001 C CNN
-F 3 " ~" H 3175 4550 50  0001 C CNN
-	1    4450 5100
+P 4000 5200
+F 0 "J1" H 3671 5296 50  0000 R CNN
+F 1 "AVR ISP" H 3671 5205 50  0000 R CNN
+F 2 "Charming:AVRISP" V 3750 5250 50  0001 C CNN
+F 3 " ~" H 2725 4650 50  0001 C CNN
+	1    4000 5200
 	1    0    0    -1  
 $EndComp
-Text GLabel 4850 5100 2    50   Input ~ 0
-Sck
-Text GLabel 4850 5000 2    50   Input ~ 0
-Mosi
-Text GLabel 4850 4900 2    50   Input ~ 0
-Miso
+Text GLabel 4400 5200 2    50   Input ~ 0
+SCK
+Text GLabel 4400 5100 2    50   Input ~ 0
+SDI
+Text GLabel 4400 5000 2    50   Input ~ 0
+SDO
 Text GLabel 2450 3000 2    50   Input ~ 0
-Sck
+SCK
 Text GLabel 2450 2900 2    50   Input ~ 0
-Miso
+SDO
 Text GLabel 2450 2800 2    50   Input ~ 0
-Mosi
+SDI
 $Comp
 L power:+5V #PWR01
 U 1 1 5F180EA9
@@ -425,28 +403,14 @@ Wire Wire Line
 $Comp
 L power:GND #PWR03
 U 1 1 5F18C57D
-P 5800 4300
-F 0 "#PWR03" H 5800 4050 50  0001 C CNN
-F 1 "GND" H 5805 4127 50  0000 C CNN
-F 2 "" H 5800 4300 50  0001 C CNN
-F 3 "" H 5800 4300 50  0001 C CNN
-	1    5800 4300
+P 6300 4350
+F 0 "#PWR03" H 6300 4100 50  0001 C CNN
+F 1 "GND" H 6305 4177 50  0000 C CNN
+F 2 "" H 6300 4350 50  0001 C CNN
+F 3 "" H 6300 4350 50  0001 C CNN
+	1    6300 4350
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5700 4100 5800 4100
-Wire Wire Line
-	5800 4100 5800 4200
-Wire Wire Line
-	5700 4200 5800 4200
-Connection ~ 5800 4200
-Wire Wire Line
-	5800 4200 5800 4300
-Wire Wire Line
-	5700 3000 5800 3000
-Wire Wire Line
-	5800 3000 5800 4100
-Connection ~ 5800 4100
 $Comp
 L power:+5V #PWR04
 U 1 1 5F193EA5
@@ -473,133 +437,65 @@ Wire Wire Line
 	6000 2350 6000 2450
 Wire Wire Line
 	5700 3100 6000 3100
-Wire Wire Line
-	6000 3100 6000 2750
-Wire Wire Line
-	5700 4000 6000 4000
-Wire Wire Line
-	6000 4000 6000 3100
-Connection ~ 6000 3100
 $Comp
 L Device:R R3
 U 1 1 5F19DEC0
-P 6350 3300
-F 0 "R3" V 6143 3300 50  0000 C CNN
-F 1 "5.1K" V 6234 3300 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6280 3300 50  0001 C CNN
-F 3 "~" H 6350 3300 50  0001 C CNN
-	1    6350 3300
+P 6000 3600
+F 0 "R3" V 5793 3600 50  0000 C CNN
+F 1 "5.1K" V 5884 3600 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5930 3600 50  0001 C CNN
+F 3 "~" H 6000 3600 50  0001 C CNN
+	1    6000 3600
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5700 3300 6200 3300
-$Comp
-L Device:R R4
-U 1 1 5F19F6F9
-P 6350 3900
-F 0 "R4" V 6143 3900 50  0000 C CNN
-F 1 "5.1K" V 6234 3900 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6280 3900 50  0001 C CNN
-F 3 "~" H 6350 3900 50  0001 C CNN
-	1    6350 3900
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5700 3900 6200 3900
-Wire Wire Line
-	6500 3300 6500 3900
-Connection ~ 6500 3900
-Wire Wire Line
-	6500 3900 6500 4200
 $Comp
 L Device:R R5
 U 1 1 5F1A1C8A
-P 7400 3500
-F 0 "R5" V 7193 3500 50  0000 C CNN
-F 1 "75" V 7284 3500 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7330 3500 50  0001 C CNN
-F 3 "~" H 7400 3500 50  0001 C CNN
-	1    7400 3500
+P 6750 3200
+F 0 "R5" V 6543 3200 50  0000 C CNN
+F 1 "75" V 6634 3200 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 6680 3200 50  0001 C CNN
+F 3 "~" H 6750 3200 50  0001 C CNN
+	1    6750 3200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	5700 3500 6100 3500
-Wire Wire Line
-	5700 3600 6200 3600
-Wire Wire Line
-	5700 3400 6200 3400
-Wire Wire Line
-	6200 3400 6200 3600
-Connection ~ 6200 3600
-Wire Wire Line
-	6200 3600 7050 3600
-Wire Wire Line
-	5700 3700 6100 3700
-Wire Wire Line
-	6100 3700 6100 3500
-Connection ~ 6100 3500
-Wire Wire Line
-	6100 3500 6700 3500
 $Comp
 L Device:D_Zener D3
 U 1 1 5F1A8BD9
-P 7050 3900
-F 0 "D3" V 7004 3980 50  0000 L CNN
-F 1 "3.6V" V 7095 3980 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 7050 3900 50  0001 C CNN
-F 3 "~" H 7050 3900 50  0001 C CNN
-	1    7050 3900
+P 6950 3750
+F 0 "D3" V 6904 3830 50  0000 L CNN
+F 1 "3.6V" V 6995 3830 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6950 3750 50  0001 C CNN
+F 3 "~" H 6950 3750 50  0001 C CNN
+	1    6950 3750
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:D_Zener D2
 U 1 1 5F1A919A
-P 6700 3900
-F 0 "D2" V 6654 3980 50  0000 L CNN
-F 1 "3.6V" V 6745 3980 50  0000 L CNN
-F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6700 3900 50  0001 C CNN
-F 3 "~" H 6700 3900 50  0001 C CNN
-	1    6700 3900
+P 6600 3750
+F 0 "D2" V 6554 3830 50  0000 L CNN
+F 1 "3.6V" V 6645 3830 50  0000 L CNN
+F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 6600 3750 50  0001 C CNN
+F 3 "~" H 6600 3750 50  0001 C CNN
+	1    6600 3750
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	6700 3500 6700 3750
-Connection ~ 6700 3500
-Wire Wire Line
-	6700 3500 7250 3500
-Wire Wire Line
-	7050 3600 7050 3750
-Connection ~ 7050 3600
-Wire Wire Line
-	6700 4050 6700 4200
-Wire Wire Line
-	5800 4200 6500 4200
-Connection ~ 6500 4200
-Wire Wire Line
-	6500 4200 6700 4200
-Wire Wire Line
-	7050 4050 7050 4200
-Wire Wire Line
-	7050 4200 6700 4200
-Connection ~ 6700 4200
-Text GLabel 7550 3500 2    50   Input ~ 0
+Text GLabel 7300 3200 2    50   Input ~ 0
 D+
 $Comp
 L Device:R R6
 U 1 1 5F1A2774
-P 7850 3600
-F 0 "R6" V 8057 3600 50  0000 C CNN
-F 1 "75" V 7966 3600 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7780 3600 50  0001 C CNN
-F 3 "~" H 7850 3600 50  0001 C CNN
-	1    7850 3600
+P 7100 3400
+F 0 "R6" V 7307 3400 50  0000 C CNN
+F 1 "75" V 7216 3400 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 7030 3400 50  0001 C CNN
+F 3 "~" H 7100 3400 50  0001 C CNN
+	1    7100 3400
 	0    -1   -1   0   
 $EndComp
-Text GLabel 8000 3600 2    50   Input ~ 0
+Text GLabel 7300 3400 2    50   Input ~ 0
 D-
-Wire Wire Line
-	7050 3600 7700 3600
-NoConn ~ 5700 3200
 NoConn ~ 5700 3800
 $Comp
 L Switch:SW_Push SW1
@@ -740,4 +636,114 @@ Text GLabel 2450 4400 2    50   Input ~ 0
 D+
 Text GLabel 2450 4500 2    50   Input ~ 0
 D-
+Text Notes 4800 5400 0    50   ~ 0
+SDO – Serial Data Out. An output signal on a device where data is sent out to another SPI device. Replace MOSI\nSDI – Serial Data In. An input signal on a device where data is received from another SPI device. Replace MISO\nCS – Chip Select. Activated by the controller to initiate communication with a given peripheral. Replace SS\n\nDetails here: https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names
+$Comp
+L Device:C C4
+U 1 1 5F137E8E
+P 3350 3550
+F 0 "C4" H 3235 3504 50  0000 R CNN
+F 1 "22pf" H 3235 3595 50  0000 R CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 3388 3400 50  0001 C CNN
+F 3 "~" H 3350 3550 50  0001 C CNN
+	1    3350 3550
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6000 3100 6000 3000
+Wire Wire Line
+	5700 3000 6000 3000
+Connection ~ 6000 3000
+Wire Wire Line
+	6000 3000 6000 2750
+NoConn ~ 5700 3900
+Wire Wire Line
+	6300 4200 6300 4350
+Connection ~ 6300 4200
+Wire Wire Line
+	5700 4100 5800 4100
+Wire Wire Line
+	6300 3600 6300 3700
+$Comp
+L Device:R R4
+U 1 1 5F19F6F9
+P 6000 3700
+F 0 "R4" V 5793 3700 50  0000 C CNN
+F 1 "5.1K" V 5884 3700 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 5930 3700 50  0001 C CNN
+F 3 "~" H 6000 3700 50  0001 C CNN
+	1    6000 3700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5700 3700 5850 3700
+Wire Wire Line
+	6150 3700 6300 3700
+Connection ~ 6300 3700
+Wire Wire Line
+	5700 3600 5850 3600
+Wire Wire Line
+	6150 3600 6300 3600
+Wire Wire Line
+	5700 3200 6000 3200
+Wire Wire Line
+	5700 3300 6000 3300
+Wire Wire Line
+	6000 3300 6000 3200
+Wire Wire Line
+	5700 3400 5800 3400
+Wire Wire Line
+	5700 3500 5800 3500
+Wire Wire Line
+	5800 3500 5800 3400
+Connection ~ 5800 3400
+Wire Wire Line
+	5800 3400 6950 3400
+Wire Wire Line
+	6950 3400 6950 3600
+Connection ~ 6950 3400
+Wire Wire Line
+	6000 3200 6600 3200
+Connection ~ 6000 3200
+Wire Wire Line
+	6600 3200 6600 3600
+Connection ~ 6600 3200
+Wire Wire Line
+	6900 3200 7300 3200
+Wire Wire Line
+	7250 3400 7300 3400
+Wire Wire Line
+	6600 3900 6600 4200
+Wire Wire Line
+	6600 4200 6300 4200
+Wire Wire Line
+	6950 3900 6950 4200
+Wire Wire Line
+	6950 4200 6600 4200
+Connection ~ 6600 4200
+Wire Wire Line
+	5800 4000 5800 4100
+Wire Wire Line
+	6300 3700 6300 4100
+Wire Wire Line
+	5700 4000 5800 4000
+$Comp
+L Charming:USB-2.0-Type-C-Receptacle USB1
+U 1 1 5F11DCBC
+P 5600 3550
+F 0 "USB1" H 5372 3603 60  0000 R CNN
+F 1 "TYPE-C" H 5372 3497 60  0000 R TNN
+F 2 "Charming:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 5600 3550 60  0001 C CNN
+F 3 "" H 5600 3550 60  0001 C CNN
+	1    5600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 4200 6300 4200
+Wire Wire Line
+	5800 4100 6300 4100
+Connection ~ 5800 4100
+Connection ~ 6300 4100
+Wire Wire Line
+	6300 4100 6300 4200
 $EndSCHEMATC
