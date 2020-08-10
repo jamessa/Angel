@@ -746,4 +746,14 @@ Connection ~ 5800 4100
 Connection ~ 6300 4100
 Wire Wire Line
 	6300 4100 6300 4200
+Text Label 6200 3200 0    50   ~ 0
+DP
+Text Label 6200 3400 0    50   ~ 0
+DN
+Text Label 6000 2850 0    50   ~ 0
+VSUB
+Text Label 5700 3600 0    50   ~ 0
+CC1
+Text Label 5700 3700 0    50   ~ 0
+CC2
 $EndSCHEMATC
