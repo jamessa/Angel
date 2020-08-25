@@ -324,13 +324,13 @@ $EndComp
 Text GLabel 4400 5300 2    50   Input ~ 0
 Reset
 $Comp
-L Charming:Oshwa_ISP_6 J1
+L JSA:Oshwa_ISP_6 J1
 U 1 1 5F1679A9
 P 4000 5200
 F 0 "J1" H 3671 5296 50  0000 R CNN
 F 1 "AVR ISP" H 3671 5205 50  0000 R CNN
-F 2 "Charming:AVRISP" V 3750 5250 50  0001 C CNN
-F 3 " ~" H 2725 4650 50  0001 C CNN
+F 2 "JSA:AVRISP" V 3750 5250 50  0001 C CNN
+F 3 "https://www.oshwa.org/a-resolution-to-redefine-spi-signal-names" H 2725 4650 50  0001 C CNN
 	1    4000 5200
 	1    0    0    -1  
 $EndComp
@@ -728,12 +728,12 @@ Wire Wire Line
 Wire Wire Line
 	5700 4000 5800 4000
 $Comp
-L Charming:USB-2.0-Type-C-Receptacle USB1
+L JSA:USB-2.0-Type-C-Receptacle USB1
 U 1 1 5F11DCBC
 P 5600 3550
 F 0 "USB1" H 5372 3603 60  0000 R CNN
 F 1 "TYPE-C" H 5372 3497 60  0000 R TNN
-F 2 "Charming:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 5600 3550 60  0001 C CNN
+F 2 "JSA:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 5600 3550 60  0001 C CNN
 F 3 "" H 5600 3550 60  0001 C CNN
 	1    5600 3550
 	1    0    0    -1  

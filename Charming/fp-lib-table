@@ -1,3 +1,2 @@
 (fp_lib_table
-  (lib (name Charming)(type KiCad)(uri ${KIPRJMOD}/Charming.pretty)(options "")(descr ""))
 )
