@@ -1,24 +1,26 @@
-# Symmetric 60%
+# Angel (2021)
 
-A staggered yet ergonomic 60% keyboard.
+A symmetric staggered ergonomic keyboard.
+
+![[handwire.jpeg]]
 
 ## Idea
 
-A slightly ergonomic keyboard that fits into 60% form factor. ![Layout](assets/layout.jpg)
+A slightly ergonomic keyboard that fits into 60% form factor. ![Layout](layout.jpg)
 
 
  ## Featuring
 
-* Staggered yet ergonmic ![Staggered yet Ergonomics](assets/staggered_yet_ergonomics.jpg)
+* Staggered yet ergonmic ![Staggered yet Ergonomics](staggered_yet_ergonomics.jpg)
 
-* Maximize hand distance ![hand distance](assets/hand_distance.jpg)
+* Maximize hand distance ![hand distance](hand_distance.jpg)
 
 * Arrow keys are must.
 
 * Fitts' law is respected. Four corner keys are maximized while [you shall no call its name] is break into 3 keys.  The gaint space bar is a huge waste ot thumb(s). It breaks into 1.25, 1.5, 1.25 to free it up. My favorite combination is, <kbd>backspace</kbd>, <kbd>enter</kbd>, <kbd>whitespace</kbd>.
 
 * 60% form factor which should fix your notebook perfectly.
-![notebook](assets/notebook.jpg)
+![notebook](notebook.jpg)
 
 * all keys are under 1.75u which means no stablizer is required. Period.
 
@@ -41,9 +43,9 @@ in the order of first appearance.
 
 Now I am going to handwire one to refuse my point. Stay tune.
 
-![handwire guide](assets/handwire_guide.jpg)
+![handwire guide](handwire_guide.jpg)
 
-You can [try it on paper](assets/try_it.pdf) and [let me know](https://forms.gle/i4KZJjDPFTidD8Jt6) how to you think about Symmetric60.
+You can [try it on paper](try_it.pdf) and [let me know](https://forms.gle/i4KZJjDPFTidD8Jt6) how to you think about Symmetric60.
 
 ## References
 
