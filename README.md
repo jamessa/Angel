@@ -35,7 +35,7 @@ in the order of first appearance.
 ### Meti
 [SemiErgo](https://github.com/mtei/SemiErgo_Layout) by meti (March 2017)   ![SemiErgo](https://github.com/mtei/SemiErgo_Layout/raw/master/Specification/SemiErgo_basic_physical_layout.png) I will vote it for ANSI standard without any doubt.
 
-[Symmetric 70 hand-wire] (https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/symmetric70_proto) (2020)
+[Symmetric 70 hand-wire](https://github.com/qmk/qmk_firmware/tree/master/keyboards/handwired/symmetric70_proto) (2020)
 ![Symmetric 70](https://camo.githubusercontent.com/5c6d8242d2bdaa8c10bd91efcf5182c9fe9b18cc32800ad02bb30456bc864f72/68747470733a2f2f692e696d6775722e636f6d2f4272347048396f6c2e6a7067)
 
 ### Rominronin
