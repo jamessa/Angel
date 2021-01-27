@@ -1,5 +1,7 @@
 # Angel (2021)
 
+Hand wired QMK is almost ready.  qmk/qmk_firmware#11501
+
 A symmetric staggered ergonomic keyboard.
 ![a symmetric and beautiful hand wire keyboard](attachments/handwire.jpeg)
 
